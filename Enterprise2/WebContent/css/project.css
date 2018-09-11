@@ -1,0 +1,125 @@
+@charset "UTF-8";
+* {
+	top: 0;
+	marign: 0;
+}
+
+table {
+	border: 1px #ccc solid;
+}
+
+ul {
+	list-style: none;
+}
+
+#head {
+	width: 1000px;
+	height: 80px;
+	left: 10px;
+	border-bottom: 1px solid #777;
+	background: #EEE;
+	z-index: 99;
+}
+
+#reset-btn input, #search-btn input {
+	
+}
+
+.click {
+	background: #337ab7;
+}
+
+#head #add {
+	position: absolute;
+	width: 250px;
+	left: 20px;
+	/* 	display: inline; */
+	top: 20px;
+}
+
+#head #add #add-btn {
+	position: relative;
+	left: 40px;
+	text-align: center;
+	line-height: 30px;
+	-webkit-user-select: none;
+	cursor: pointer;
+	display: inline;
+}
+
+#head #add #save-btn {
+	position: relative;
+	left: 60px;
+	text-align: center;
+	line-height: 30px;
+	-webkit-user-select: none;
+	cursor: pointer;
+	display: inline;
+}
+
+#head #add #delete-btn {
+	position: relative;
+	left: 80px;
+	text-align: center;
+	line-height: 30px;
+	-webkit-user-select: none;
+	cursor: pointer;
+	display: inline;
+}
+
+#main {
+	top: 10px;
+	width: 1100px;
+	height: auto;
+	z-index: 1;
+	left: 10px;
+	padding-bottom: 200px;
+}
+
+#main table {
+	width: 1000px;
+	height: auto;
+	text-align: center;
+}
+
+#main table td, #main table th {
+	text-align: center;
+}
+
+#main table thead tr {
+	height: 40px;
+}
+
+#main table tbody tr {
+	height: 30px;
+}
+
+.check {
+	width: 30px;
+}
+
+.id {
+	width: 100px
+}
+
+.name {
+	width: 200px;
+}
+.proname{
+	width:400px;
+}
+.empCount, .proCount{
+	width: 150px;
+}
+
+.option {
+	width: 200px;
+}
+a{
+	cursor: pointer;
+}
+#page {
+	margin-top: 20px;
+	height: 60px;
+	text-align: center;
+}
